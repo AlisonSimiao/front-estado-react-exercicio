@@ -1,7 +1,69 @@
 .container {
   height: 100vh;
-
   display: flex;
   align-items: center;
+  justify-content: flex-start;
+  background-color: #E5E5E5;
+}
+
+.menu{
+  width: 244px;
+  height: 100vh;
+  background: linear-gradient(180deg, #000000 0%, rgba(15, 13, 15, 0.65) 100%);
+  box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.25);
+  padding: 24px 0px 47px 0px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo{
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 19px;
+  
+  color: #FFFFFF;
+
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.logo img{
+  width: 30px;
+  height: 30px;
+}
+
+.reset button{
+  background-color: #F0C551;
+
+  padding: 18px 59px ;
+  border-radius: 6px;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 16px;
+
+  color: #FFFFFF;
+  text-transform: uppercase;
+}
+.tela{
+  width: 100%;
+  height: 100%;
+  display: flex;
   justify-content: center;
+  align-items: center;
+  background-color: #F0C551;
+}
+
+.grid-cards{
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+  grid-column-gap: 32px;
+  grid-row-gap: 1em;
 }
